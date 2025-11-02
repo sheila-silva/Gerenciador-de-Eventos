@@ -27,4 +27,33 @@ O banco é criado automaticamente e populado pelo arquivo `data.sql`.
 
 ---
 
+# 🎫 Event Management System
+
+This project is an **event management system** developed using **Spring Boot**, **JPA**, and an **in-memory H2 database**.
+It allows for the registration and relationship management between **activities**, **participants**, **categories**, and **time blocks**.
+
+---
+
+## ⚙️ Technologies
+- Java 17+
+- Spring Boot
+- Spring Data JPA
+- H2 Database
+- Maven
+
+---
+
+## 🧩 System Structure
+Main entities:
+- **Category** → type of activity (course, workshop)
+- **Activity** → event activities
+- **Block** → time blocks
+- **Participant** → activity participants
+
+---
+
+The database is automatically created and populated by the `data.sql` file.
+
+---
+
 
