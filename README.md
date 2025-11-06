@@ -26,6 +26,7 @@ Entidades principais:
 O banco é criado automaticamente e populado pelo arquivo `data.sql`.
 
 ---
+---
 
 # 🎫 Event Management System
 
