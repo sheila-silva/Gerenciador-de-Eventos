@@ -53,29 +53,97 @@ Diagrama de Domínio:
 1.Clonar o repositório
 ``
 git clone https://github.com/seu-usuario/seu-repositorio.git
+``
+2.Acessar o diretório do projeto
+3.Compilar o projeto
+4.Executar a aplicação
+5.Após a inicialização, a aplicação estará disponível em:
+``````
+http://localhost:8080/h2-console
+``````
+<br>
+<br>
+
+🌐 **Endpoint**
+🔹 **Listar Atividades**
+
+**Endpoint:**
+
+GET /events/activities
 
 
-Acessar o diretório do projeto
+Descrição:
+Retorna todas as atividades cadastradas no sistema, incluindo suas categorias, participantes associados e blocos de horário.
 
-cd seu-repositorio
+URL completa:
 
-
-Compilar o projeto
-
-mvn clean install
+http://localhost:8080/events/activities
 
 
-Executar a aplicação
+Exemplo de Requisição:
 
-mvn spring-boot:run
+GET /events/activities HTTP/1.1
+Host: localhost:8080
 
 
-Após a inicialização, a aplicação estará disponível em:
-
-http://localhost:8080
+Exemplo de Resposta (200 OK):
+````
+[
+  {
+    "id": 1,
+    "nome": "Curso de HTML",
+    "descricao": "Aprenda HTML de forma prática",
+    "preco": 80.0,
+    "category": {
+      "id": 1,
+      "descricao": "Curso"
+    },
+    "blocks": [
+      {
+        "id": 1,
+        "inicio": "2017-09-25T08:00:00Z",
+        "fim": "2017-09-25T11:00:00Z"
+      }
+    ],
+    "participants": [
+      {
+        "id": 1,
+        "nome": "José Silva",
+        "email": "jose@gmail.com"
+      }
+    ]
+  }
+]
+````
 
 <br>
 <br>
+
+# Agradecimentos / Referências 
+
+Devsuperior - Curso de Programação
+
+<br>
+
+
+----------
+
+
+# Autora:
+
+Sheila M. M. L. Silva 
+
+https://www.linkedin.com/in/sheilasheila/
+
+
+
+
+
+
+
+
+
+
 
 
 
