@@ -1,60 +1,52 @@
 # 🎫 Sistema de Gerenciamento de Eventos
 
-Este projeto é um **sistema de gerenciamento de eventos** desenvolvido com **Spring Boot**, **JPA** e **banco de dados H2 em memória**.  
-Ele permite o cadastro e relacionamento entre **atividades**, **participantes**, **categorias** e **blocos de horário**.
+[![License](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](LICENSE)
 
----
 
-## ⚙️ Tecnologias
+Este projeto consiste em uma API REST desenvolvida com Spring Boot, voltada para o gerenciamento de eventos, atividades, categorias, participantes e blocos de horário. A aplicação foi estruturada seguindo boas práticas de arquitetura em camadas, utilizando Spring Data JPA, Hibernate e banco de dados H2 em memória, com o objetivo de demonstrar modelagem relacional, persistência de dados e exposição de endpoints REST.
+
+<br>
+<br>
+
+🏗️ **Arquitetura da Aplicação**
+
+-A aplicação está organizada nas seguintes camadas:
+
+-Camada de Entrada (Controller): Responsável por expor os endpoints REST.
+
+-Camada de Serviço (Service): Centraliza a lógica de negócio.
+
+-Camada de Persistência (Repository): Comunicação com o banco de dados via JPA.
+
+-Camada de Domínio (Model): Entidades JPA que representam o modelo de dados.
+
+<br>
+<br>
+
+Diagrama de Domínio:
+
+<p align="center">
+  <img 
+    src="https://github.com/user-attachments/assets/733a0388-aa9c-41a6-ae47-93bcea5765f0"
+    alt="Sistema Evento"
+    width="600"
+  />
+</p>
+
+<br>
+<br>
+
+
+⚙️ **Tecnologias**
 - Java 17+
 - Spring Boot
 - Spring Data JPA
 - H2 Database
 - Maven
+- Hibernate
 
----
+<br>
+<br>
 
-## 🧩 Estrutura do Sistema
-Entidades principais:
-- **Category** → tipo de atividade (curso, oficina)  
-- **Activity** → atividades do evento  
-- **Block** → blocos de horário  
-- **Participant** → participantes das atividades  
-
----
-
-O banco é criado automaticamente e populado pelo arquivo `data.sql`.
-
----
----
-
-# 🎫 Event Management System
-
-This project is an **event management system** developed using **Spring Boot**, **JPA**, and an **in-memory H2 database**.
-It allows for the registration and relationship management between **activities**, **participants**, **categories**, and **time blocks**.
-
----
-
-## ⚙️ Technologies
-- Java 17+
-- Spring Boot
-- Spring Data JPA
-- H2 Database
-- Maven
-
----
-
-## 🧩 System Structure
-Main entities:
-- **Category** → type of activity (course, workshop)
-- **Activity** → event activities
-- **Block** → time blocks
-- **Participant** → activity participants
-
----
-
-The database is automatically created and populated by the `data.sql` file.
-
----
 
 
