@@ -48,5 +48,34 @@ Diagrama de Domínio:
 <br>
 <br>
 
+**Passo a Passo para Execução**
+
+1.Clonar o repositório
+``
+git clone https://github.com/seu-usuario/seu-repositorio.git
+
+
+Acessar o diretório do projeto
+
+cd seu-repositorio
+
+
+Compilar o projeto
+
+mvn clean install
+
+
+Executar a aplicação
+
+mvn spring-boot:run
+
+
+Após a inicialização, a aplicação estará disponível em:
+
+http://localhost:8080
+
+<br>
+<br>
+
 
 
