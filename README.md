@@ -55,8 +55,11 @@ Diagrama de Domínio:
 git clone https://github.com/seu-usuario/seu-repositorio.git
 ``
 2.Acessar o diretório do projeto
+
 3.Compilar o projeto
+
 4.Executar a aplicação
+
 5.Após a inicialização, a aplicação estará disponível em:
 ``````
 http://localhost:8080/h2-console
