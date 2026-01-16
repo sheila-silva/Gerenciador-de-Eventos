@@ -3,7 +3,7 @@
 [![License](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](LICENSE)
 
 
-Este projeto consiste em uma API REST desenvolvida com Spring Boot, voltada para o gerenciamento de eventos, atividades, categorias, participantes e blocos de horário. A aplicação foi estruturada seguindo boas práticas de arquitetura em camadas, utilizando Spring Data JPA, Hibernate e banco de dados H2 em memória, com o objetivo de demonstrar modelagem relacional, persistência de dados e exposição de endpoints REST.
+Este projeto consiste em uma API desenvolvida com Spring Boot, voltada para o gerenciamento de eventos, atividades, categorias, participantes e blocos de horário. A aplicação foi estruturada seguindo boas práticas de arquitetura em camadas, utilizando Spring Data JPA, Hibernate e banco de dados H2 em memória, com o objetivo de demonstrar modelagem relacional, persistência de dados e exposição de endpoints.
 
 <br>
 <br>
